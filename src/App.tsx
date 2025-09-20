@@ -1,0 +1,16 @@
+import ReactDOM from 'react-dom/client';
+
+import './index.css';
+
+const App = () => {
+  return (
+    <div className="container">
+      <div>Name: mf-header</div>
+      <div>Framework: react-19</div>
+    </div>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById('app') as HTMLElement);
+
+root.render(<App />);
