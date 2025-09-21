@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/mf-manifest.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://modulefederationhosttest.netlify.app/"
