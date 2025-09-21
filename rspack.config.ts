@@ -36,7 +36,7 @@ export default defineConfig({
     // You need to set a unique value that is not equal to other applications
     uniqueName: 'mf_header',
     // publicPath must be configured if using manifest
-    publicPath: 'http://localhost:8081/',
+    publicPath: 'https://modulefederationremotetest.netlify.app/',
   },
 
   experiments: {
